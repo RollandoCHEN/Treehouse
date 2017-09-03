@@ -1,0 +1,18 @@
+<?import javafx.geometry.Insets?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.CheckBox?>
+<VBox fx:controller="sample.Controller"
+      xmlns:fx="http://javafx.com/fxml" alignment="center" spacing="20">
+      <HBox>
+          <Label fx:id="travee" text="Travée"/>
+          <TextField />
+      </HBox>
+    <HBox>
+        <Label fx:id="appuis identique" text="Appuis identiques"/>
+        <CheckBox/>
+    </HBox>
+</VBox>

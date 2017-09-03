@@ -1,0 +1,30 @@
+#container{
+    -fx-spacing: 10px;
+}
+
+.promptText{
+    -fx-font-size: 14px;
+    -fx-font-style: italic;
+}
+
+#spansLength{
+    -fx-alignment: center;
+}
+
+.hbox{
+    -fx-spacing: 10px;
+    -fx-alignment:center-left;
+}
+.title{
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+
+.text{
+    -fx-font-size: 16px;
+}
+
+.text-field{
+    -fx-max-width: 69px;
+    -fx-font-size: 16px;
+}
